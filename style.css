@@ -1,59 +1,71 @@
-.container{
+.container {
     width: 100vw;
     padding: 0 20px;
     margin: 0 auto;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
     padding: 15px;
     background-color: #fff;
-    
+
 }
-nav ul  {
+
+nav ul {
     display: flex;
     gap: 50px;
 }
-nav ul li{
+
+nav ul li {
     border-bottom: 1px solid #fff;
-    border-top: 1px  solid #fff;
+    border-top: 1px solid #fff;
 
 }
-nav ul li:hover{
+
+nav ul li:hover {
     border-bottom: 1px solid #000000;
     border-top: 1px solid #000000;
 }
+
 .hero-cont {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .hero-left {
     display: flex;
     align-items: start;
     flex-direction: column;
 }
+
 .hero-left span {
     font-size: 64px;
 }
+
 .hero-left h1 {
     font-size: 64px;
 }
+
 .hero-btns button {
     margin-top: 50px;
     padding: 10px;
@@ -61,12 +73,74 @@ nav ul li:hover{
 }
 
 
-g
-.footer{
+
+
+
+
+
+
+
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contact-text {
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    text-align: left;
+
+    color: #BDBDBD;
+    margin-bottom: 22px;
+
+
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 77px;
+}
+
+.contact-input input {
+    padding-top: 15px;
+    padding-left: 10px;
+    background: #F3F3F3;
+    border: none;
+}
+
+.massage {
+    padding-bottom: 117px;
+}
+
+
+
+.contact-left-btn {
+    padding: 30px 50px;
+    background: #333333;
+
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+g .footer {
     background-color: #2C2C2C;
     color: white;
 }
-.footer-top{
+
+.footer-top {
     padding-top: 20px;
     display: flex;
     align-items: start;
@@ -75,14 +149,16 @@ g
     border-bottom: 1px white;
 
 }
-.footer-item{
+
+.footer-item {
 
     margin-bottom: 10px;
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.footer-bottom{
+
+.footer-bottom {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
