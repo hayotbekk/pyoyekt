@@ -8,3 +8,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.footer{
+    background-color: #2C2C2C;
+    color: white;
+}
+.footer-top{
+    padding-top: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.footer-item{
+    
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.footer-bottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
